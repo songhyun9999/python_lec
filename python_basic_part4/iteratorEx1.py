@@ -1,0 +1,15 @@
+# it1 = range(3).__iter__()
+
+# print(it1)
+# print(it1.__next__())
+# print(it1.__next__())
+# print(it1.__next__())
+# print(it1.__next__())
+
+it2 = [10,20,30,40].__iter__()
+print(it2)
+print(it2.__next__())
+print(it2.__next__())
+print(it2.__next__())
+print(it2.__next__())
+print(it2.__next__())
