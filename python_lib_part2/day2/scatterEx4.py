@@ -40,7 +40,6 @@ ax1.scatter(xdata,ydata,
             s=diamonds['newtable'],c=diamonds['newcut'],alpha=0.7)
 plt.xlabel('price')
 plt.ylabel('depth')
-
 import matplotlib.patches as patches
 plt.legend(handles=[patches.Patch(color='r',label='Very Good'),
                      patches.Patch(color='g',label='Good'),
