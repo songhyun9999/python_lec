@@ -1,0 +1,38 @@
+1. 와인 품질 데이터셋을 이용한다.
+
+ a. 데이터 셋을 DataFrame으로 읽어온다.
+
+ b. 위의 데이터프레임의 요약 통계를 표시한다.(최소, 최대, 사분위, 평균, 분산)
+
+ c. 와인 품질(quality)의 유일 값을 찾아 출력한다.
+
+ d. 와인 품질(quality)의 빈도를 계산하여 출력한다.
+
+ e. 와인 종류에 따라 기술 통계(최소, 최대, 사분위, 평균, 분산)를 출력한다.
+
+ f.  와인 종류에 따른 품질(quality)의 분포를 확인하기 위해 레드와인과 화이트 와인의 막대 그래프를 출력한다.
+    (이때 범례도 같이 출력한다. )
+
+ g. 와인 종류에 따라 품질의 차이를 검정(분산, 평균)하여 각 각을 출력한다.
+
+
+2.unemployment_rate.csv 파일을 이용하여 아래와 그림과 같이 선그래프를 그리시오(파일 로딩시 encoding='cp949' 사용)
+
+
+3.final_exam.csv 파일을 이용하여 아래와 같이 막대그래프를 그리시오(파일 로딩시 encodingf='cp949' 사용)
+
+
+4. drinks.csv 파일을 이용하여 아래의 조건에 맞게 출력하시오(아래 그래프 이미지 참조)
+
+ ㄱ. 파일을 읽어 데이터 프레임으로 구성한 뒤 앞의 10개 행을 출력
+ ㄴ.'beer_servings', 'spirit_servings', 'wine_servings', 'total_litres_of_pure_alcohol'들의 상관계수를 계산하여 출력하고
+     heatmap를 이용하여 이를 그래프로 출력
+ ㄷ. 'beer_servings', 'spirit_servings', 'wine_servings', 'total_litres_of_pure_alcohol'들의 상관 관계를 보기 위해 각 특성들의 
+     산점도를 그래프로 출력
+ ㄹ. 'continent'의 결측데이터에는 'OT'를 삽입
+ ㅁ. 대륙별('continent')의 데이터 수의 비율을 파이 그래프를 이용하여 출력
+ ㅂ. 'total_litres_of_pure_alcohol' 전체 평균 보다 많은 알코올을 섭취하는 대륙을 구하여 출력
+ ㅅ. 대륙별 spirit_servings의 평균, 최소, 최대, 합계를 막대 그래프로 출력
+ ㅇ. 대륙별 total_litres_of_pure_alcohol를 막대 그래프로 출력
+
+
