@@ -15,8 +15,8 @@ plt.xlabel('학생 이름')
 plt.ylabel('점수')
 
 for idx in range(len(df.korean)):
-    text = f"{df['korean'][idx]}점"
-    plt.text(x=idx, y=df['korean'][idx]+1,
+    text = f"{df['korean'].iloc[idx]}점"
+    plt.text(x=idx, y=df['korean'].iloc[idx]+1,
              s=text, ha='center', fontsize=8)
 
 mean_val = df['korean'].mean(axis=0)

@@ -38,11 +38,16 @@ print(df.groupby('type').describe())
 print()
 
 # 1-f
-import seaborn
 print('--------1-f----------')
-seaborn.histplot(data=df,x='quality',hue='type')
+by_quality = df.groupby(['quality','type']).size().unstack()
+print(by_quality)
+by_quality.plot(kind='bar')
 plt.show()
-print()
+
+# import seaborn
+# seaborn.histplot(data=df,x='quality',hue='type')
+# plt.show()
+# print()
 
 # 1-g
 print('--------1-g----------')

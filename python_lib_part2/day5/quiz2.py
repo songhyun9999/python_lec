@@ -10,4 +10,7 @@ df = pd.read_csv('unemployment_rate.csv',encoding='cp949',index_col=0)
 index = df.index
 dfT = df.T
 dfT[index[range(5)]].plot(marker='o',figsize=(7,4))
+plt.xlabel('연령대')
+plt.ylabel('연도명')
+plt.title('연령대별 연도명 꺾은 선 그래프')
 plt.show()

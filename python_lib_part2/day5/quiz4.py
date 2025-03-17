@@ -49,7 +49,8 @@ print()
 # 4-ㄹ
 print('-----------4.ㄹ-------------')
 # print(df['continent']== 'NaN')
-df.loc[df['continent'].isnull(),'continent']= 'OT'
+# df.loc[df['continent'].isnull(),'continent']= 'OT'
+df['continent'] = df['continent'].fillna('OT')
 print(df.iloc[0:10])
 print()
 
